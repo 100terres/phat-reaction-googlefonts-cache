@@ -8,7 +8,7 @@ Warning: file_get_contents(http://phat-reaction.com/googlefonts.php?format=php):
 ```
 So from http://web.archive.org/ I retrived the list and put it on github.
 
-# How to use it
+# How to fix it
 In your php codebase there's probably this line:
 ```php
 $fontsSerialized = file_get_contents('http://phat-reaction.com/googlefonts.php?format=php');
