@@ -13,8 +13,8 @@ In your php codebase there's probably this line:
 ```php
 $fontsSeraliazed = file_get_contents('http://phat-reaction.com/googlefonts.php?format=php');
 ```
-So you just need to change the url with this one: https://raw.githubusercontent.com/gabrielsanterre/phat-reaction-googlefonts-cache/master/google-fonts-list-serialized-php
+So you just need to change the url with this one: https://raw.githubusercontent.com/gabrielsanterre/phat-reaction-googlefonts-cache/master/google-fonts-list-serialized-php.txt
 ```php
-$fontsSeraliazed = file_get_contents('https://raw.githubusercontent.com/gabrielsanterre/phat-reaction-googlefonts-cache/master/google-fonts-list-serialized-php');
+$fontsSeraliazed = file_get_contents('https://raw.githubusercontent.com/gabrielsanterre/phat-reaction-googlefonts-cache/master/google-fonts-list-serialized-php.txt');
 ```
 Or you can save the file on your own server so this error won't happen again
